@@ -64,17 +64,17 @@ function all (){
     })
     
     
-    // document.addEventListener('keydown', (e) =>{
-    //     if(e.code == "KeyP"){
-    //         showTimes()
-    //     }
-    // })
+    document.addEventListener('keydown', (e) =>{
+        if(e.code == "KeyP"){
+            showTimes()
+        }
+    })
     
-    // document.addEventListener('keydown', (e) =>{
-    //     if(e.code == "Escape"){
-    //         hideTimes()
-    //     }
-    // })
+    document.addEventListener('keydown', (e) =>{
+        if(e.code == "Escape"){
+            hideTimes()
+        }
+    })
     
     }
     all()
